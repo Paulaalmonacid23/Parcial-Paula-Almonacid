@@ -1,8 +1,13 @@
+import React from "react";
+import "./CardEstilo.css"
+
+
 function Card(props) {
     return (
     <div>
-        <h2> Esta es un componente
-    </h2>
+    <p>Hola {props.nombre}</p>
+    <p>Tus datos son:</p>
+    <p>{props.apellido}</p>
     </div>
     );
 }

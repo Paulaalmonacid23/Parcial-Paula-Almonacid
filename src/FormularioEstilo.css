@@ -1,0 +1,44 @@
+
+* { 
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-acuarela_220290-34.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    border-radius: 30px;
+    background-color: pink;
+    height: 200px;
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(pink, white, blue, skyblue) ;
+}
+
+h1 {
+    text-align: center;
+    background-color: beige;
+}
+
+setTextoValidacion {
+    background-color: brown;
+}
