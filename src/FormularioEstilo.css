@@ -31,7 +31,7 @@ form {
     margin: auto;
     margin-top: 30px;
     padding: 20px;
-    box-shadow: 0 0 20px 1px rgba(pink, white, blue, skyblue) ;
+    box-shadow: 0 0 20px 1px rgba(pink, white, blue, skyblue) ; 
 }
 
 h1 {
@@ -39,6 +39,3 @@ h1 {
     background-color: beige;
 }
 
-setTextoValidacion {
-    background-color: brown;
-}

@@ -4,9 +4,9 @@ import "./CardEstilo.css"
 
 function Card(props) {
     return (
-    <div>
-    <p>Hola {props.nombre}</p>
-    <p>Tus datos son:</p>
+    <div className="carta">
+    <p>Hola, {props.nombre}</p>
+    <p>tus datos son:</p>
     <p>{props.apellido}</p>
     </div>
     );
